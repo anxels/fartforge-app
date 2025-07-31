@@ -1,4 +1,3 @@
-
 export function Card({ children, className }) {
   return <div className={`rounded shadow-md ${className}`}>{children}</div>;
 }
